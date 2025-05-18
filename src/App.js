@@ -8,7 +8,7 @@
                 <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <h1 className="text-2xl font-bold text-indigo-600">Job Jennies</h1>
                 <nav className="space-x-6">
-                    <a href="#" className="hover:text-indigo-600">Home</a>
+                    <a href="#" className="hover:text-indigo-600">HomePage</a>
                     <a href="#" className="hover:text-indigo-600">Jobs</a>
                     <a href="#" className="hover:text-indigo-600">Employers</a>
                     <a href="#" className="hover:text-indigo-600">Contact</a>
