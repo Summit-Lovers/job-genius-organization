@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samar Ibrahim</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      padding: 2rem;
+    }
+    input, button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+    #output {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome! Samar</h1>
+  
+ 
+  <input type="text" id="nameInput" placeholder="Your name">
+  <button id="showBtn">Show name</button>
+  
+  
+  <div id="output"></div>
+  
+  <script>
+    const input = document.getElementById('nameInput');
+    const btn = document.getElementById('showBtn');
+    const output = document.getElementById('output');
+    
+    btn.addEventListener('click', () => {
+      const name = input.value.trim();
+      if (name) {
+        output.textContent = 'Welcome ${Samar Ibrahim}! ';
+      } else {
+        output.textContent = 'please enter Your Name';
+      }
+    });
+  </script>
+
+</body>
+</html>
